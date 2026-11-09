@@ -1,7 +1,7 @@
 # Proyecto: QA agéntico para cálculos y tableros (TFM UNIR)
 
 ## Quién soy y cómo trabajar conmigo
-- Somos Nicolás Alfaro y Jinneth Tique Ortiz, autores del TFM. Nicolás es abogado y estudiante del Máster. **No sé programar.** Explícame todo en español sencillo, sin jerga, y dime siempre qué hiciste y cómo verificarlo.
+- Somos Nicolás Alfaro Alzate y Jinneth Tique Ortiz, autores del TFM
 - Antes de escribir o cambiar código: **muéstrame un plan corto y espera mi "sí"**.
 - Ejecuta tú los comandos de terminal (instalar, correr scripts, git). No me pidas que los escriba yo, salvo que sea imprescindible.
 - Al terminar cada etapa: corre el código, muéstrame el resultado, y haz `git add . && git commit -m "Etapa X: ..." && git push`.
