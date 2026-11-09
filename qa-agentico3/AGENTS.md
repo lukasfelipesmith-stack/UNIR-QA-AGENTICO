@@ -1,12 +1,3 @@
-# Proyecto: QA agéntico para cálculos y tableros (TFM UNIR)
-
-## Quién soy y cómo trabajar conmigo
-- Somos Nicolás Alfaro Alzate y Jinneth Tique Ortiz, autores del TFM
-- Antes de escribir o cambiar código: **muéstrame un plan corto y espera mi "sí"**.
-- Ejecuta tú los comandos de terminal (instalar, correr scripts, git). No me pidas que los escriba yo, salvo que sea imprescindible.
-- Al terminar cada etapa: corre el código, muéstrame el resultado, y haz `git add . && git commit -m "Etapa X: ..." && git push`.
-- Si algo falla, explícame la causa en una frase y corrígelo.
-
 ## Objetivo del proyecto
 Prototipo de un framework de QA con IA agéntica y ML que valida la consistencia de cálculos (KPIs) y de la capa de visualización (tablero) **antes de la entrega al cliente**, y lo compara con el QA manual.
 Empresa ficticia: **Comercial Andina** (10 tiendas, 8 productos, ventas ene–jun 2026, pesos colombianos COP).
