@@ -1,0 +1,274 @@
+tipo,familia,clave,detalle
+A1,datos,tx|8033,pico extremo de unidades
+A1,datos,tx|11474,pico extremo de unidades
+A1,datos,tx|3901,pico extremo de unidades
+A1,datos,tx|11348,pico extremo de unidades
+A1,datos,tx|765,pico extremo de unidades
+A1,datos,tx|8107,pico extremo de unidades
+A1,datos,tx|12651,pico extremo de unidades
+A1,datos,tx|1827,pico extremo de unidades
+A1,datos,tx|7191,pico extremo de unidades
+A1,datos,tx|13730,pico extremo de unidades
+A1,datos,tx|12437,pico extremo de unidades
+A1,datos,tx|3163,pico extremo de unidades
+A1,datos,tx|6530,pico extremo de unidades
+A1,datos,tx|6222,pico extremo de unidades
+A1,datos,tx|506,pico extremo de unidades
+A1,datos,tx|6181,pico extremo de unidades
+A1,datos,tx|4756,pico extremo de unidades
+A1,datos,tx|13802,pico extremo de unidades
+A1,datos,tx|3560,pico extremo de unidades
+A1,datos,tx|6678,pico extremo de unidades
+A1,datos,tx|1664,pico extremo de unidades
+A1,datos,tx|10019,pico extremo de unidades
+A1,datos,tx|12110,pico extremo de unidades
+A1,datos,tx|613,pico extremo de unidades
+A1,datos,tx|8660,pico extremo de unidades
+A1,datos,tx|11741,pico extremo de unidades
+A1,datos,tx|9514,pico extremo de unidades
+A1,datos,tx|68,pico extremo de unidades
+A1,datos,tx|13724,pico extremo de unidades
+A1,datos,tx|8675,pico extremo de unidades
+A1,datos,tx|6537,pico extremo de unidades
+A1,datos,tx|8539,pico extremo de unidades
+A1,datos,tx|3009,pico extremo de unidades
+A1,datos,tx|7721,pico extremo de unidades
+A1,datos,tx|1612,pico extremo de unidades
+A1,datos,tx|6524,pico extremo de unidades
+A1,datos,tx|7117,pico extremo de unidades
+A1,datos,tx|9750,pico extremo de unidades
+A1,datos,tx|13495,pico extremo de unidades
+A1,datos,tx|4253,pico extremo de unidades
+A1,datos,tx|11564,pico extremo de unidades
+A1,datos,tx|2245,pico extremo de unidades
+A1,datos,tx|7197,pico extremo de unidades
+A1,datos,tx|6214,pico extremo de unidades
+A1,datos,tx|11251,pico extremo de unidades
+A1,datos,tx|8798,pico extremo de unidades
+A1,datos,tx|11069,pico extremo de unidades
+A1,datos,tx|11221,pico extremo de unidades
+A1,datos,tx|4181,pico extremo de unidades
+A1,datos,tx|11927,pico extremo de unidades
+A1,datos,tx|11027,pico extremo de unidades
+A1,datos,tx|1965,pico extremo de unidades
+A1,datos,tx|3985,pico extremo de unidades
+A1,datos,tx|10758,pico extremo de unidades
+A1,datos,tx|13083,pico extremo de unidades
+A1,datos,tx|12752,pico extremo de unidades
+A1,datos,tx|6948,pico extremo de unidades
+A1,datos,tx|4758,pico extremo de unidades
+A1,datos,tx|7049,pico extremo de unidades
+A1,datos,tx|11408,pico extremo de unidades
+A2,datos,tx|1526,unidades negativas
+A2,datos,tx|7641,descuento fuera de rango
+A2,datos,tx|10035,ingreso nulo
+A2,datos,tx|801,unidades negativas
+A2,datos,tx|12156,descuento fuera de rango
+A2,datos,tx|3925,ingreso nulo
+A2,datos,tx|10138,unidades negativas
+A2,datos,tx|9929,descuento fuera de rango
+A2,datos,tx|534,ingreso nulo
+A2,datos,tx|13440,unidades negativas
+A2,datos,tx|5991,descuento fuera de rango
+A2,datos,tx|6531,ingreso nulo
+A2,datos,tx|10456,unidades negativas
+A2,datos,tx|6235,descuento fuera de rango
+A2,datos,tx|10583,ingreso nulo
+A2,datos,tx|4506,unidades negativas
+A2,datos,tx|361,descuento fuera de rango
+A2,datos,tx|9521,ingreso nulo
+A2,datos,tx|431,unidades negativas
+A2,datos,tx|9163,descuento fuera de rango
+A2,datos,tx|11166,ingreso nulo
+A2,datos,tx|12136,unidades negativas
+A2,datos,tx|12605,descuento fuera de rango
+A2,datos,tx|13450,ingreso nulo
+A2,datos,tx|7307,unidades negativas
+A2,datos,tx|1113,descuento fuera de rango
+A2,datos,tx|4987,ingreso nulo
+A2,datos,tx|5800,unidades negativas
+A2,datos,tx|5198,descuento fuera de rango
+A2,datos,tx|3353,ingreso nulo
+A2,datos,tx|6661,unidades negativas
+A2,datos,tx|9542,descuento fuera de rango
+A2,datos,tx|761,ingreso nulo
+A2,datos,tx|7902,unidades negativas
+A2,datos,tx|8255,descuento fuera de rango
+A2,datos,tx|4831,ingreso nulo
+A2,datos,tx|12025,unidades negativas
+A2,datos,tx|6061,descuento fuera de rango
+A2,datos,tx|12574,ingreso nulo
+A2,datos,tx|1714,unidades negativas
+A3,calculo,tx|12744,descuento aplicado dos veces
+A3,calculo,tx|11514,descuento omitido
+A3,calculo,tx|13119,descuento aplicado dos veces
+A3,calculo,tx|739,descuento omitido
+A3,calculo,tx|1362,descuento aplicado dos veces
+A3,calculo,tx|13076,descuento omitido
+A3,calculo,tx|4264,descuento aplicado dos veces
+A3,calculo,tx|5597,descuento omitido
+A3,calculo,tx|8642,descuento aplicado dos veces
+A3,calculo,tx|2890,descuento omitido
+A3,calculo,tx|8474,descuento aplicado dos veces
+A3,calculo,tx|4241,descuento omitido
+A3,calculo,tx|10664,descuento aplicado dos veces
+A3,calculo,tx|5971,descuento omitido
+A3,calculo,tx|9490,descuento aplicado dos veces
+A3,calculo,tx|5250,descuento omitido
+A3,calculo,tx|12412,descuento aplicado dos veces
+A3,calculo,tx|2916,descuento omitido
+A3,calculo,tx|10483,descuento aplicado dos veces
+A3,calculo,tx|3073,descuento omitido
+A3,calculo,tx|12698,descuento aplicado dos veces
+A3,calculo,tx|7300,descuento omitido
+A3,calculo,tx|5738,descuento aplicado dos veces
+A3,calculo,tx|8111,descuento omitido
+A3,calculo,tx|8336,descuento aplicado dos veces
+A3,calculo,tx|4388,descuento omitido
+A3,calculo,tx|2396,descuento aplicado dos veces
+A3,calculo,tx|996,descuento omitido
+A3,calculo,tx|11705,descuento aplicado dos veces
+A3,calculo,tx|11218,descuento omitido
+A3,calculo,tx|12627,descuento aplicado dos veces
+A3,calculo,tx|2234,descuento omitido
+A3,calculo,tx|13484,descuento aplicado dos veces
+A3,calculo,tx|6028,descuento omitido
+A3,calculo,tx|4680,descuento aplicado dos veces
+A3,calculo,tx|1902,descuento omitido
+A3,calculo,tx|1597,descuento aplicado dos veces
+A3,calculo,tx|10203,descuento omitido
+A3,calculo,tx|6187,descuento aplicado dos veces
+A3,calculo,tx|11372,descuento omitido
+A3,calculo,tx|7618,descuento aplicado dos veces
+A3,calculo,tx|13510,descuento omitido
+A3,calculo,tx|10955,descuento aplicado dos veces
+A3,calculo,tx|12382,descuento omitido
+A3,calculo,tx|7225,descuento aplicado dos veces
+A3,calculo,tx|10406,descuento omitido
+A3,calculo,tx|9949,descuento aplicado dos veces
+A3,calculo,tx|3583,descuento omitido
+A3,calculo,tx|8057,descuento aplicado dos veces
+A3,calculo,tx|3526,descuento omitido
+A3,calculo,tx|8785,descuento aplicado dos veces
+A3,calculo,tx|6629,descuento omitido
+A3,calculo,tx|7299,descuento aplicado dos veces
+A3,calculo,tx|12131,descuento omitido
+A3,calculo,tx|12733,descuento aplicado dos veces
+A3,calculo,tx|9995,descuento omitido
+A3,calculo,tx|2300,descuento aplicado dos veces
+A3,calculo,tx|9445,descuento omitido
+A3,calculo,tx|10331,descuento aplicado dos veces
+A3,calculo,tx|13170,descuento omitido
+A4,contextual,tx|854,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|12331,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|1987,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|7038,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|11321,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|9810,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|317,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|7577,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|879,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|303,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|3102,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|2541,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|4223,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|4791,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|7586,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|1426,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|10802,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|11313,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|8697,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|299,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|1439,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|4212,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|5916,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|7017,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|2559,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|1429,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|4209,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|8690,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|8154,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|3104,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|10804,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|12320,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|5898,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|8149,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|11326,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|8129,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|4238,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|13324,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|10814,venta registrada en domingo (tienda cerrada)
+A4,contextual,tx|5888,venta registrada en domingo (tienda cerrada)
+A5,contextual,tx|4058,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|12042,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|9587,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|6628,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|4376,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|3976,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|9881,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|2465,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|1116,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|10082,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|2693,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|7648,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|8220,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|10165,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|8395,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|11177,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|1114,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|234,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|1748,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|11748,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|11390,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|2215,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|4542,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|11460,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|2392,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|3572,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|11881,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|1757,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|9956,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|6383,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|5744,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|11596,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|6054,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|12393,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|9665,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|7810,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|1749,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|11384,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|1094,volumen de tienda grande en tienda pequeña
+A5,contextual,tx|12253,volumen de tienda grande en tienda pequeña
+B1,calculo,kpi|T06|2026-05,filas duplicadas inflan el ingreso
+B1,calculo,kpi|T06|2026-06,filas duplicadas inflan el ingreso
+B1,calculo,kpi|T01|2026-06,filas duplicadas inflan el ingreso
+B1,calculo,kpi|T01|2026-02,filas duplicadas inflan el ingreso
+S1,semantica,kpi|T02|2026-02,ingreso calculado antes del descuento
+S1,semantica,kpi|T05|2026-05,ingreso calculado antes del descuento
+S1,semantica,kpi|T10|2026-04,ingreso calculado antes del descuento
+S1,semantica,kpi|T04|2026-05,ingreso calculado antes del descuento
+S2,semantica,kpi|T09|2026-03,margen dividido por el costo
+S2,semantica,kpi|T08|2026-02,margen dividido por el costo
+S2,semantica,kpi|T05|2026-04,margen dividido por el costo
+S2,semantica,kpi|T04|2026-04,margen dividido por el costo
+S3,semantica,kpi|T05|2026-01,mes agrupado por fecha_pedido
+S3,semantica,kpi|T01|2026-04,mes agrupado por fecha_pedido
+S3,semantica,kpi|T10|2026-03,mes agrupado por fecha_pedido
+S3,semantica,kpi|T06|2026-01,mes agrupado por fecha_pedido
+S4,semantica,total|2026-05,total incluye la tienda inactiva T10
+S4,semantica,total|2026-06,total incluye la tienda inactiva T10
+V1,visualizacion,tab|2026-06|v_ingreso|T08,muestra el valor del mes anterior
+V1,visualizacion,tab|2026-02|v_ingreso|T09,muestra el valor del mes anterior
+V1,visualizacion,tab|2026-06|v_ingreso|T03,muestra el valor del mes anterior
+V1,visualizacion,tab|2026-02|v_ingreso|T01,muestra el valor del mes anterior
+V2,visualizacion,tab|2026-05|v_ingreso|T09,formato de moneda incorrecto
+V2,visualizacion,tab|2026-04|v_ingreso|T07,formato de moneda incorrecto
+V2,visualizacion,tab|2026-05|v_ingreso|T01,formato de moneda incorrecto
+V2,visualizacion,tab|2026-06|v_ingreso|T09,formato de moneda incorrecto
+V3,visualizacion,tab|2026-01|v_margen|T10,margen mostrado como proporción
+V3,visualizacion,tab|2026-06|v_margen|T03,margen mostrado como proporción
+V3,visualizacion,tab|2026-03|v_margen|T09,margen mostrado como proporción
+V3,visualizacion,tab|2026-06|v_margen|T01,margen mostrado como proporción
+V4,visualizacion,tab|2026-04|v_margen|TITULO,título de visual equivocado
+V4,visualizacion,tab|2026-03|v_margen|TITULO,título de visual equivocado
+V4,visualizacion,tab|2026-03|v_ingreso|TITULO,título de visual equivocado

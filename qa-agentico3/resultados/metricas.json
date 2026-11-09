@@ -1,0 +1,117 @@
+{
+  "escenario": {
+    "transacciones": 13920,
+    "celdas_kpi": 58,
+    "totales": 6,
+    "valores_tablero": 122,
+    "anomalias": 273,
+    "por_familia": {
+      "datos": 100,
+      "contextual": 80,
+      "calculo": 64,
+      "visualizacion": 15,
+      "semantica": 14
+    }
+  },
+  "metodos": {
+    "Manual (simulado)": {
+      "TP": null,
+      "FP": 0,
+      "FN": null,
+      "precision": 1.0,
+      "recall": 0.085,
+      "f1": 0.157,
+      "recall_datos": 0.045,
+      "recall_contextual": 0.014,
+      "recall_calculo": 0.056,
+      "recall_semantica": 0.281,
+      "recall_visualizacion": 0.668,
+      "horas_ciclo": 11.03
+    },
+    "Reglas genéricas": {
+      "TP": 100,
+      "FP": 0,
+      "FN": 173,
+      "precision": 1.0,
+      "recall": 0.366,
+      "f1": 0.536,
+      "recall_datos": 0.4,
+      "recall_contextual": 0.0,
+      "recall_calculo": 0.938,
+      "recall_semantica": 0.0,
+      "recall_visualizacion": 0.0,
+      "alertas": 100,
+      "horas_ciclo": 0.14
+    },
+    "ML (PyOD)": {
+      "TP": 146,
+      "FP": 64,
+      "FN": 127,
+      "precision": 0.695,
+      "recall": 0.535,
+      "f1": 0.605,
+      "recall_datos": 0.81,
+      "recall_contextual": 0.812,
+      "recall_calculo": 0.0,
+      "recall_semantica": 0.0,
+      "recall_visualizacion": 0.0,
+      "alertas": 210,
+      "horas_ciclo": 3.5
+    },
+    "Framework agéntico": {
+      "TP": 267,
+      "FP": 64,
+      "FN": 6,
+      "precision": 0.807,
+      "recall": 0.978,
+      "f1": 0.884,
+      "recall_datos": 0.99,
+      "recall_contextual": 0.938,
+      "recall_calculo": 1.0,
+      "recall_semantica": 1.0,
+      "recall_visualizacion": 1.0,
+      "alertas": 331,
+      "horas_ciclo": 3.21
+    }
+  },
+  "pruebas_metamorficas_pipeline": [
+    {
+      "regla": "R10",
+      "resultado": "superada"
+    },
+    {
+      "regla": "R11",
+      "resultado": "superada"
+    }
+  ],
+  "segundos_ejecucion_framework": 0.06,
+  "reduccion_tiempo_pct": 70.9,
+  "supuestos_manual": {
+    "muestra_tx": 0.05,
+    "seg_por_tx": 30,
+    "min_por_kpi": 3,
+    "min_por_total": 3,
+    "min_por_celda_tablero": 1,
+    "p_deteccion": {
+      "A1": 0.9,
+      "A2": 0.95,
+      "A3": 0.4,
+      "A4": 0.3,
+      "A5": 0.25,
+      "B1": 0.6,
+      "S1": 0.35,
+      "S2": 0.4,
+      "S3": 0.1,
+      "S4": 0.3,
+      "V1": 0.5,
+      "V2": 0.85,
+      "V3": 0.7,
+      "V4": 0.6
+    }
+  },
+  "supuestos_hitl_minutos": {
+    "crítica": 1.0,
+    "media": 1.0,
+    "alta": 0.08333333333333333
+  }
+}

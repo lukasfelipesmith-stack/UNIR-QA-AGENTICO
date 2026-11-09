@@ -1,0 +1,9 @@
+PAQUETE DE PRUEBA DEL REVISOR — Comercial Andina, marzo de 2026 (datos 100 % sintéticos)
+
+prueba_transacciones.csv : 1241 transacciones de 5 tiendas con 11 errores sembrados.
+prueba_kpis.csv          : 5 KPIs mensuales publicados con 3 errores sembrados.
+prueba_casos_esperados.csv : la hoja de respuestas con los 14 casos y la regla que debe detectar cada uno.
+
+Cómo probar: en la página, sección 'Prueba el modelo', cargue los dos CSV (o use 'Usar datos de prueba')
+y compare las alertas con prueba_casos_esperados.csv. Puede editar los CSV para crear sus propios casos.
+Este paquete es independiente del experimento principal: sus resultados no cambian.

@@ -1,0 +1,15 @@
+regla,feature,escenario
+R01,01_ingreso_neto.feature,Ingreso de cada transacción descuenta el descuento
+R02,01_ingreso_neto.feature,Ingreso de cada transacción descuenta el descuento (nunca negativo ni nulo)
+R03,01_ingreso_neto.feature,Ingreso neto mensual por tienda usa la fecha de factura
+R04,01_ingreso_neto.feature,Las tiendas pequeñas no venden los domingos
+R05,02_margen.feature,Margen calculado sobre el ingreso
+R06,02_margen.feature,Margen dentro de rango razonable
+R07,03_total_compania.feature,Solo se suman tiendas activas
+R08,03_total_compania.feature,No hay duplicados en la agregación
+R09,04_consistencia_metamorfica.feature,La suma de las partes es igual al total
+R10,04_consistencia_metamorfica.feature,Reordenar los datos no cambia los KPIs
+R11,04_consistencia_metamorfica.feature,Duplicar precios duplica el ingreso pero no las unidades
+T01,05_tablero.feature,Los valores del tablero coinciden con los KPIs calculados
+T02,05_tablero.feature,Formato de moneda y porcentaje
+T03,05_tablero.feature,Títulos y periodo correctos

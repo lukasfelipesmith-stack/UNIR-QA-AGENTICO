@@ -1,0 +1,51 @@
+Para el desarrollo del presente Trabajo Final de Máster se adoptó un enfoque metodológico mixto (cualitativo-cuantitativo) de carácter aplicado y experimental, enmarcado en el diseño e implantación de soluciones de transformación digital impulsadas por tecnologías disruptivas.
+La metodología se estructuró en cinco fases  interrelacionadas que guían el proyecto desde el diagnóstico inicial hasta la validación empírica del framework.
+Fase 1: Diagnóstico de la línea de base y caracterización del proceso actual
+Propósito: Cuantificar el proceso de QA manual actual y documentar la duplicación de esfuerzos frente al trabajo del ingeniero de datos, estableciendo las métricas de referencia frente a las cuales se medirá el éxito del framework.
+Pasos:Mapeo del flujo de trabajo actual de QA en la validación de KPIs, lógicas matemáticas y capas de visualización.
+Medición de tiempos de ciclo (horas/hombre gastadas en revisiones manuales en Python/Excel) y registro histórico del porcentaje de defectos no detectados (escape rate) que llegan al cliente.
+Instrumentos y herramientas: Registros de tiempo invertido en Jira de ciclos de QA y registro histórico de incidencias de proyectos previos.
+Fase 2: Investigación documental y sistematización del estado del arte.
+Propósito: Cimentar conceptual y técnicamente el diseño del framework, extrayendo las mejores prácticas sobre IA agentica, modelos de lenguaje, validación declarativa de datos y pruebas metamórficas identificadas en la literatura.
+Pasos: Revisión sistemática de literatura estructurada en los ejes de calidad de requisitos, criterios BDD/Gherkin, generación de pruebas, trazabilidad y validación de datos/detección de anomalías. Identificación de vacíos de investigación (evaluación de extremo a extremo) y tendencias clave (generación verificada, explicabilidad, arquitectura RAG).
+Instrumentos y herramientas: Matriz de análisis bibliográfico.
+Fase 3: Diseño arquitectónico del Framework con IA Agentica 
+Propósito: Definir la estructura lógica y los componentes de automatización inteligente capaces de sustituir la réplica manual de cálculos por un sistema de supervisión declarativa y agentes autónomos orientados a la intención de negocio.
+Pasos:  Diseño de la arquitectura de agentes orientados a la evaluación de reglas matemáticas y análisis de capas de visualización. Definición del módulo de aprendizaje automático para la detección no supervisada de anomalías contextuales y colectivas. Configuración de compuertas de control (Human-in-the-Loop) para asegurar la validación experta y la explicabilidad de las alertas emitidas.
+Instrumentos y herramientas: Diagramas de arquitectura, especificación de agentes bajo Model Context Protocol (MCP) y diseño de prompts estructurados.
+Fase 4: Experimentación e inyección controlada de anomalías 
+Propósito: Poner a prueba la resiliencia, exhaustividad y precisión del framework en un entorno controlado que simule fallos reales en las canalizaciones de analítica de datos.
+Pasos:Construcción de canalizaciones (pipelines) utilizando conjuntos de datos sinteticos. Desarrollo e inyección programada de anomalías sintéticas (errores puntuales, desviaciones de agregación, incoherencias contextuales) para evaluar la capacidad de detección.
+Instrumentos y herramientas: Scripts en Python, librerías de analítica y Machine Learning, entornos de procesamiento de datos y generadores de datos sintéticos.
+Fase 5: Evaluación de resultados, análisis comparativo y prospectiva (Cuantitativa)
+Propósito: Validar si la solución logra optimizar los tiempos de ciclo en la proporción teórica deseada (representando el QA entre el 20% y 30% del esfuerzo) manteniendo o superando la calidad en la entrega.
+Pasos: Medición de métricas de eficiencia operativa: reducción porcentual en los tiempos del ciclo de QA. Medición de métricas de precisión técnica: cálculo de Precisión, Recall (exhaustividad), y tasa de detección temprana de anomalías frente al método manual. Análisis de impacto en la satisfacción del cliente y formulación de limitaciones y líneas de trabajo futuro.
+Instrumentos y herramientas: Cuadros comparativos de rendimiento, análisis estadístico de resultados, y gráficos de distribución de tiempos.  
+
+Avance del desarrollo: prototipo inicial del framework (Fases 3 y 4)
+
+Para validar tempranamente la viabilidad de la propuesta se construyó un prototipo funcional y reproducible (versión 1) en Python. Implementa de extremo a extremo las tres capas de la arquitectura propuesta sobre un escenario de prueba controlado. El código, los insumos de negocio y los resultados están versionados en un repositorio Git.
+
+1. Escenario de prueba y capa de contexto
+Se modeló una empresa ficticia, Comercial Andina, con 10 tiendas de tres tamaños, 8 productos y seis meses de operación (enero a junio de 2026). La canalización simulada tiene tres capas: (i) 13.920 transacciones diarias, con fecha de pedido y fecha de factura; (ii) 58 KPIs mensuales por tienda (ingreso neto, margen porcentual, unidades y ticket promedio), más el ingreso total de la compañía por mes; y (iii) un tablero exportado con 122 valores formateados y sus títulos. La capa de contexto la forman cinco historias de usuario, cinco archivos de criterios de aceptación en Gherkin (13 escenarios, incluidos 3 de relaciones metamórficas), un archivo de metadatos del pipeline con la definición oficial de cada KPI y el catálogo de tiendas activas, y un archivo de reglas de presentación del tablero.
+
+2. Inyección controlada de anomalías
+Se inyectaron 273 anomalías etiquetadas, que constituyen la verdad de referencia, en cinco familias: de datos (100: picos extremos y valores inválidos), contextuales (80: ventas en días de cierre y volúmenes atípicos para el tamaño de la tienda), de cálculo (64: fórmulas mal aplicadas y doble conteo), semánticas (14) y de visualización (15). Las anomalías semánticas son coherentes en lo matemático pero contradicen la intención del negocio: ingreso calculado antes del descuento, margen dividido por el costo, mes agrupado por fecha de pedido y un total de la compañía que incluye una tienda cerrada. Las de visualización incluyen valores del mes anterior, formatos de moneda o de porcentaje incorrectos y títulos equivocados. Ningún método evaluado tiene acceso a la verdad de referencia; esta solo se usa para calificarlos.
+
+3. Framework implementado
+La capa de núcleo integra tres componentes: (1) un agente evaluador, que traduce cada escenario Gherkin en una regla ejecutable con trazabilidad al criterio de origen (11 reglas, incluidas pruebas metamórficas sobre el código del pipeline); (2) un agente auditor de la capa de visualización, que contrasta los valores del tablero con los KPIs y verifica formatos, títulos y periodo; y (3) un detector estadístico no supervisado (ensamble Isolation Forest + Local Outlier Factor, librería PyOD) para anomalías puntuales y contextuales. La capa de gobernanza consolida las detecciones en alertas con severidad (crítica, alta o media), una explicación en lenguaje de negocio y el criterio Gherkin de origen. Las alertas pasan por una compuerta de aprobación humana (Human-in-the-Loop) que registra cada decisión y su tiempo, y emite un reporte de decisión de entrega.
+
+4. Resultados preliminares
+Se compararon cuatro métodos sobre el mismo escenario: QA manual por muestreo (simulado), reglas genéricas de calidad de datos (Pandera), machine learning (PyOD) y el framework agéntico.
+
+Método | Precisión | Recall | F1 | Datos | Contextual | Cálculo | Semántica | Visualización | Tiempo de ciclo
+Manual (simulado) | 1,00* | 0,09 | 0,16 | 0,05 | 0,01 | 0,06 | 0,28 | 0,67 | 11,0 h
+Reglas genéricas | 1,00 | 0,37 | 0,54 | 0,40 | 0,00 | 0,94 | 0,00 | 0,00 | —
+ML (PyOD) | 0,70 | 0,54 | 0,61 | 0,81 | 0,81 | 0,00 | 0,00 | 0,00 | —
+Framework agéntico | 0,81 | 0,98 | 0,88 | 0,99 | 0,94 | 1,00 | 1,00 | 1,00 | 3,2 h
+(*) Se supuso que el analista manual no reporta falsos positivos.
+
+El framework detectó antes de la entrega 267 de las 273 anomalías (recall de 0,98 y F1 de 0,88). Los métodos clásicos, en cambio, no detectaron ninguna anomalía semántica ni de visualización. Este es el hallazgo central del avance: las reglas genéricas y el ML identifican errores técnicos, pero solo un componente que interpreta los criterios de negocio detecta los errores que contradicen la intención del cliente. Los 64 falsos positivos del framework provienen del componente de ML y se canalizan a la revisión humana. Las dos pruebas metamórficas del pipeline se superaron. Con un supuesto de un minuto de revisión experta por cada alerta crítica o de ML, el ciclo de QA pasó de 11,0 horas (método manual simulado) a 3,2 horas, una reducción estimada del 70,9 %.
+
+5. Limitaciones y próximos pasos
+(i) Dentro del experimento, el método manual y los tiempos de revisión humana se modelan con supuestos explícitos. Los registros reales de Jira (Fase 1) muestran que el QA operativo consume 963,29 h, el 53,7 % de las 1.793,60 h del proyecto, con una mediana de 33 h por ticket; frente a ese dato, el supuesto de 11 h por ciclo del experimento es conservador. Falta medir la tasa de defectos que llegan al cliente y validar los tiempos de revisión humana con las decisiones reales de la compuerta. (ii) En esta versión, las reglas del agente evaluador fueron generadas por un modelo de lenguaje a partir de los criterios Gherkin, en modo asistido y con revisión del investigador, y las explicaciones de las alertas se producen con plantillas. La versión 2 automatizará ambos pasos con Claude Agent SDK, integrando Great Expectations mediante Model Context Protocol (MCP), y medirá el costo en tokens. (iii) Se comparará el desempeño de dos modelos de lenguaje (Claude y Gemini) como evaluadores. (iv) Los datos son sintéticos; se incorporarán conjuntos reales anonimizados y un tablero real de Power BI mediante su servidor MCP oficial.

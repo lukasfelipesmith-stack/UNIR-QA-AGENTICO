@@ -1,0 +1,52 @@
+# Metadatos del pipeline de datos de Comercial Andina
+# Describe las fuentes, columnas y la definición oficial de cada KPI.
+
+empresa: Comercial Andina
+moneda: COP
+periodo: 2026-01-01 a 2026-06-29
+
+fuentes:
+  transacciones:
+    descripcion: Ventas diarias por tienda y producto
+    columnas:
+      fecha_pedido: Fecha en que el cliente hizo el pedido
+      fecha_factura: Fecha de facturación (0 a 3 días después del pedido). ES LA FECHA OFICIAL PARA REPORTES.
+      tienda: Código de tienda (T01–T10)
+      tamano: grande | mediana | pequena
+      producto: Código de producto (P01–P08)
+      precio_lista: Precio unitario de lista en COP (entero > 0)
+      unidades: Unidades vendidas (entero >= 0)
+      descuento: Descuento aplicado, proporción entre 0 y 0.5
+      ingreso: unidades × precio_lista × (1 − descuento)
+      costo: unidades × costo_unitario
+      margen: ingreso − costo
+
+  catalogo_tiendas:
+    T01: {tamano: grande,  activa_desde: 2025-01-01, activa_hasta: null}
+    T02: {tamano: grande,  activa_desde: 2025-01-01, activa_hasta: null}
+    T03: {tamano: mediana, activa_desde: 2025-01-01, activa_hasta: null}
+    T04: {tamano: mediana, activa_desde: 2025-01-01, activa_hasta: null}
+    T05: {tamano: mediana, activa_desde: 2025-01-01, activa_hasta: null}
+    T06: {tamano: mediana, activa_desde: 2025-01-01, activa_hasta: null}
+    T07: {tamano: pequena, activa_desde: 2025-01-01, activa_hasta: null}
+    T08: {tamano: pequena, activa_desde: 2025-01-01, activa_hasta: null}
+    T09: {tamano: pequena, activa_desde: 2025-01-01, activa_hasta: null}
+    T10: {tamano: pequena, activa_desde: 2025-01-01, activa_hasta: 2026-04-30}
+
+kpis:
+  ingreso_neto_mensual:
+    definicion: Suma de ingreso por tienda y mes, agrupando por fecha_factura
+    granularidad: [tienda, mes]
+  unidades_mensuales:
+    definicion: Suma de unidades por tienda y mes (fecha_factura)
+  margen_pct:
+    definicion: (ingreso − costo) / ingreso, por tienda y mes
+    rango_esperado: [0.0, 0.6]
+  ticket_promedio:
+    definicion: ingreso_neto_mensual / unidades_mensuales
+  ingreso_total_compania:
+    definicion: Suma del ingreso neto de todas las tiendas ACTIVAS en ese mes
+
+salidas:
+  kpis: datos/kpis.csv
+  tablero: datos/tablero.json

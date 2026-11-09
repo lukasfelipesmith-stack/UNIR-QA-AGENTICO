@@ -1,0 +1,5 @@
+metodo,precision,recall,f1,recall_datos,recall_contextual,recall_calculo,recall_semantica,recall_visualizacion,horas_ciclo
+Manual (simulado),1.0,0.085,0.157,0.045,0.014,0.056,0.281,0.668,11.03
+Reglas genéricas,1.0,0.366,0.536,0.4,0.0,0.938,0.0,0.0,0.14
+ML (PyOD),0.695,0.535,0.605,0.81,0.812,0.0,0.0,0.0,3.5
+Framework agéntico,0.807,0.978,0.884,0.99,0.938,1.0,1.0,1.0,3.21

@@ -1,0 +1,15 @@
+caso,tipo,archivo,ubicacion,descripcion,regla_que_debe_detectarlo
+C01,Cálculo,prueba_transacciones.csv,TX00581,descuento aplicado dos veces,R01 Fórmula del ingreso
+C02,Cálculo,prueba_transacciones.csv,TX00807,descuento omitido,R01 Fórmula del ingreso
+C03,Cálculo,prueba_transacciones.csv,TX00456,descuento aplicado dos veces,R01 Fórmula del ingreso
+C04,Datos,prueba_transacciones.csv,TX00046,unidades negativas,R02 Valores inválidos
+C05,Datos,prueba_transacciones.csv,TX00219,descuento de 150 %,R02 Valores inválidos
+C06,Datos,prueba_transacciones.csv,TX01058,ingreso vacío,R02 Valores inválidos
+C07,Contextual,prueba_transacciones.csv,TX00879,venta en domingo en tienda pequeña (cerrada),R04 Tienda cerrada el domingo
+C08,Contextual,prueba_transacciones.csv,TX00873,venta en domingo en tienda pequeña (cerrada),R04 Tienda cerrada el domingo
+C09,Datos,prueba_transacciones.csv,TX00803,pico extremo de unidades (×20),Detección estadística
+C10,Datos,prueba_transacciones.csv,TX01057,pico extremo de unidades (×20),Detección estadística
+C11,Cálculo,prueba_transacciones.csv,TX00372 y TX01241,transacción duplicada,R08 Duplicados
+C12,Semántica,prueba_kpis.csv,T03 | 2026-03,ingreso mensual calculado antes del descuento,R03 Ingreso mensual vs. recálculo
+C13,Semántica,prueba_kpis.csv,T07 | 2026-03,margen dividido por el costo y no por el ingreso,R05 Margen vs. recálculo
+C14,Cálculo,prueba_kpis.csv,T05 | 2026-03,ingreso mensual inflado 5 % (doble conteo),R03 Ingreso mensual vs. recálculo

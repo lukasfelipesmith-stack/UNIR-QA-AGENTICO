@@ -1,0 +1,650 @@
+{
+ "empresa": "Comercial Andina",
+ "moneda": "COP",
+ "meses": [
+  {
+   "mes_filtro": "2026-01",
+   "visuales": [
+    {
+     "id": "v_ingreso",
+     "titulo": "Ingreso neto mensual por tienda",
+     "mes_mostrado": "2026-01",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "$ 70.333.000"
+      },
+      {
+       "tienda": "T02",
+       "valor": "$ 73.024.000"
+      },
+      {
+       "tienda": "T03",
+       "valor": "$ 32.844.000"
+      },
+      {
+       "tienda": "T04",
+       "valor": "$ 37.293.000"
+      },
+      {
+       "tienda": "T05",
+       "valor": "$ 33.529.000"
+      },
+      {
+       "tienda": "T06",
+       "valor": "$ 40.690.000"
+      },
+      {
+       "tienda": "T07",
+       "valor": "$ 13.031.000"
+      },
+      {
+       "tienda": "T08",
+       "valor": "$ 13.356.000"
+      },
+      {
+       "tienda": "T09",
+       "valor": "$ 19.137.000"
+      },
+      {
+       "tienda": "T10",
+       "valor": "$ 14.659.000"
+      }
+     ]
+    },
+    {
+     "id": "v_margen",
+     "titulo": "Margen % por tienda",
+     "mes_mostrado": "2026-01",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "36,0 %"
+      },
+      {
+       "tienda": "T02",
+       "valor": "36,1 %"
+      },
+      {
+       "tienda": "T03",
+       "valor": "37,0 %"
+      },
+      {
+       "tienda": "T04",
+       "valor": "37,2 %"
+      },
+      {
+       "tienda": "T05",
+       "valor": "37,0 %"
+      },
+      {
+       "tienda": "T06",
+       "valor": "35,8 %"
+      },
+      {
+       "tienda": "T07",
+       "valor": "37,0 %"
+      },
+      {
+       "tienda": "T08",
+       "valor": "36,6 %"
+      },
+      {
+       "tienda": "T09",
+       "valor": "35,9 %"
+      },
+      {
+       "tienda": "T10",
+       "valor": "0,36"
+      }
+     ]
+    },
+    {
+     "id": "v_total",
+     "titulo": "Ingreso total de la compañía",
+     "mes_mostrado": "2026-01",
+     "valores": [
+      {
+       "tienda": "TOTAL",
+       "valor": "$ 347.896.000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "mes_filtro": "2026-02",
+   "visuales": [
+    {
+     "id": "v_ingreso",
+     "titulo": "Ingreso neto mensual por tienda",
+     "mes_mostrado": "2026-02",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "$ 70.333.000"
+      },
+      {
+       "tienda": "T02",
+       "valor": "$ 73.171.000"
+      },
+      {
+       "tienda": "T03",
+       "valor": "$ 32.934.000"
+      },
+      {
+       "tienda": "T04",
+       "valor": "$ 31.637.000"
+      },
+      {
+       "tienda": "T05",
+       "valor": "$ 32.191.000"
+      },
+      {
+       "tienda": "T06",
+       "valor": "$ 40.642.000"
+      },
+      {
+       "tienda": "T07",
+       "valor": "$ 17.977.000"
+      },
+      {
+       "tienda": "T08",
+       "valor": "$ 13.891.000"
+      },
+      {
+       "tienda": "T09",
+       "valor": "$ 19.137.000"
+      },
+      {
+       "tienda": "T10",
+       "valor": "$ 11.505.000"
+      }
+     ]
+    },
+    {
+     "id": "v_margen",
+     "titulo": "Margen % por tienda",
+     "mes_mostrado": "2026-02",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "36,9 %"
+      },
+      {
+       "tienda": "T02",
+       "valor": "36,7 %"
+      },
+      {
+       "tienda": "T03",
+       "valor": "36,9 %"
+      },
+      {
+       "tienda": "T04",
+       "valor": "36,1 %"
+      },
+      {
+       "tienda": "T05",
+       "valor": "36,3 %"
+      },
+      {
+       "tienda": "T06",
+       "valor": "36,5 %"
+      },
+      {
+       "tienda": "T07",
+       "valor": "38,0 %"
+      },
+      {
+       "tienda": "T08",
+       "valor": "58,6 %"
+      },
+      {
+       "tienda": "T09",
+       "valor": "35,6 %"
+      },
+      {
+       "tienda": "T10",
+       "valor": "37,2 %"
+      }
+     ]
+    },
+    {
+     "id": "v_total",
+     "titulo": "Ingreso total de la compañía",
+     "mes_mostrado": "2026-02",
+     "valores": [
+      {
+       "tienda": "TOTAL",
+       "valor": "$ 334.193.000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "mes_filtro": "2026-03",
+   "visuales": [
+    {
+     "id": "v_ingreso",
+     "titulo": "Ingreso total por región",
+     "mes_mostrado": "2026-03",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "$ 73.211.000"
+      },
+      {
+       "tienda": "T02",
+       "valor": "$ 80.977.000"
+      },
+      {
+       "tienda": "T03",
+       "valor": "$ 43.053.000"
+      },
+      {
+       "tienda": "T04",
+       "valor": "$ 34.262.000"
+      },
+      {
+       "tienda": "T05",
+       "valor": "$ 44.066.000"
+      },
+      {
+       "tienda": "T06",
+       "valor": "$ 37.188.000"
+      },
+      {
+       "tienda": "T07",
+       "valor": "$ 16.042.000"
+      },
+      {
+       "tienda": "T08",
+       "valor": "$ 16.598.000"
+      },
+      {
+       "tienda": "T09",
+       "valor": "$ 16.758.000"
+      },
+      {
+       "tienda": "T10",
+       "valor": "$ 18.110.000"
+      }
+     ]
+    },
+    {
+     "id": "v_margen",
+     "titulo": "Margen bruto acumulado",
+     "mes_mostrado": "2026-03",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "36,5 %"
+      },
+      {
+       "tienda": "T02",
+       "valor": "35,8 %"
+      },
+      {
+       "tienda": "T03",
+       "valor": "36,5 %"
+      },
+      {
+       "tienda": "T04",
+       "valor": "37,0 %"
+      },
+      {
+       "tienda": "T05",
+       "valor": "38,9 %"
+      },
+      {
+       "tienda": "T06",
+       "valor": "35,8 %"
+      },
+      {
+       "tienda": "T07",
+       "valor": "38,5 %"
+      },
+      {
+       "tienda": "T08",
+       "valor": "36,6 %"
+      },
+      {
+       "tienda": "T09",
+       "valor": "0,58"
+      },
+      {
+       "tienda": "T10",
+       "valor": "34,6 %"
+      }
+     ]
+    },
+    {
+     "id": "v_total",
+     "titulo": "Ingreso total de la compañía",
+     "mes_mostrado": "2026-03",
+     "valores": [
+      {
+       "tienda": "TOTAL",
+       "valor": "$ 380.265.000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "mes_filtro": "2026-04",
+   "visuales": [
+    {
+     "id": "v_ingreso",
+     "titulo": "Ingreso neto mensual por tienda",
+     "mes_mostrado": "2026-04",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "$ 78.748.000"
+      },
+      {
+       "tienda": "T02",
+       "valor": "$ 70.251.000"
+      },
+      {
+       "tienda": "T03",
+       "valor": "$ 37.488.000"
+      },
+      {
+       "tienda": "T04",
+       "valor": "$ 40.368.000"
+      },
+      {
+       "tienda": "T05",
+       "valor": "$ 39.423.000"
+      },
+      {
+       "tienda": "T06",
+       "valor": "$ 39.654.000"
+      },
+      {
+       "tienda": "T07",
+       "valor": "$13426000"
+      },
+      {
+       "tienda": "T08",
+       "valor": "$ 14.649.000"
+      },
+      {
+       "tienda": "T09",
+       "valor": "$ 13.465.000"
+      },
+      {
+       "tienda": "T10",
+       "valor": "$ 17.797.000"
+      }
+     ]
+    },
+    {
+     "id": "v_margen",
+     "titulo": "Ventas brutas por tienda",
+     "mes_mostrado": "2026-04",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "36,4 %"
+      },
+      {
+       "tienda": "T02",
+       "valor": "36,3 %"
+      },
+      {
+       "tienda": "T03",
+       "valor": "35,9 %"
+      },
+      {
+       "tienda": "T04",
+       "valor": "56,4 %"
+      },
+      {
+       "tienda": "T05",
+       "valor": "56,7 %"
+      },
+      {
+       "tienda": "T06",
+       "valor": "36,3 %"
+      },
+      {
+       "tienda": "T07",
+       "valor": "36,2 %"
+      },
+      {
+       "tienda": "T08",
+       "valor": "36,2 %"
+      },
+      {
+       "tienda": "T09",
+       "valor": "36,5 %"
+      },
+      {
+       "tienda": "T10",
+       "valor": "37,2 %"
+      }
+     ]
+    },
+    {
+     "id": "v_total",
+     "titulo": "Ingreso total de la compañía",
+     "mes_mostrado": "2026-04",
+     "valores": [
+      {
+       "tienda": "TOTAL",
+       "valor": "$ 365.269.000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "mes_filtro": "2026-05",
+   "visuales": [
+    {
+     "id": "v_ingreso",
+     "titulo": "Ingreso neto mensual por tienda",
+     "mes_mostrado": "2026-05",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "USD 21,293"
+      },
+      {
+       "tienda": "T02",
+       "valor": "$ 77.937.000"
+      },
+      {
+       "tienda": "T03",
+       "valor": "$ 40.003.000"
+      },
+      {
+       "tienda": "T04",
+       "valor": "$ 42.866.000"
+      },
+      {
+       "tienda": "T05",
+       "valor": "$ 40.525.000"
+      },
+      {
+       "tienda": "T06",
+       "valor": "$ 36.337.000"
+      },
+      {
+       "tienda": "T07",
+       "valor": "$ 14.885.000"
+      },
+      {
+       "tienda": "T08",
+       "valor": "$ 17.701.000"
+      },
+      {
+       "tienda": "T09",
+       "valor": "USD 4,854"
+      }
+     ]
+    },
+    {
+     "id": "v_margen",
+     "titulo": "Margen % por tienda",
+     "mes_mostrado": "2026-05",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "37,6 %"
+      },
+      {
+       "tienda": "T02",
+       "valor": "36,4 %"
+      },
+      {
+       "tienda": "T03",
+       "valor": "35,6 %"
+      },
+      {
+       "tienda": "T04",
+       "valor": "35,5 %"
+      },
+      {
+       "tienda": "T05",
+       "valor": "36,4 %"
+      },
+      {
+       "tienda": "T06",
+       "valor": "36,2 %"
+      },
+      {
+       "tienda": "T07",
+       "valor": "36,2 %"
+      },
+      {
+       "tienda": "T08",
+       "valor": "36,1 %"
+      },
+      {
+       "tienda": "T09",
+       "valor": "35,1 %"
+      }
+     ]
+    },
+    {
+     "id": "v_total",
+     "titulo": "Ingreso total de la compañía",
+     "mes_mostrado": "2026-05",
+     "valores": [
+      {
+       "tienda": "TOTAL",
+       "valor": "$ 392.639.000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "mes_filtro": "2026-06",
+   "visuales": [
+    {
+     "id": "v_ingreso",
+     "titulo": "Ingreso neto mensual por tienda",
+     "mes_mostrado": "2026-06",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "$ 71.655.000"
+      },
+      {
+       "tienda": "T02",
+       "valor": "$ 61.488.000"
+      },
+      {
+       "tienda": "T03",
+       "valor": "$ 40.003.000"
+      },
+      {
+       "tienda": "T04",
+       "valor": "$ 52.552.000"
+      },
+      {
+       "tienda": "T05",
+       "valor": "$ 29.977.000"
+      },
+      {
+       "tienda": "T06",
+       "valor": "$ 32.639.000"
+      },
+      {
+       "tienda": "T07",
+       "valor": "$ 11.841.000"
+      },
+      {
+       "tienda": "T08",
+       "valor": "$ 17.701.000"
+      },
+      {
+       "tienda": "T09",
+       "valor": "$11176000"
+      }
+     ]
+    },
+    {
+     "id": "v_margen",
+     "titulo": "Margen % por tienda",
+     "mes_mostrado": "2026-06",
+     "valores": [
+      {
+       "tienda": "T01",
+       "valor": "0,35"
+      },
+      {
+       "tienda": "T02",
+       "valor": "36,6 %"
+      },
+      {
+       "tienda": "T03",
+       "valor": "0,36"
+      },
+      {
+       "tienda": "T04",
+       "valor": "35,6 %"
+      },
+      {
+       "tienda": "T05",
+       "valor": "36,9 %"
+      },
+      {
+       "tienda": "T06",
+       "valor": "36,1 %"
+      },
+      {
+       "tienda": "T07",
+       "valor": "35,3 %"
+      },
+      {
+       "tienda": "T08",
+       "valor": "37,5 %"
+      },
+      {
+       "tienda": "T09",
+       "valor": "36,6 %"
+      }
+     ]
+    },
+    {
+     "id": "v_total",
+     "titulo": "Ingreso total de la compañía",
+     "mes_mostrado": "2026-06",
+     "valores": [
+      {
+       "tienda": "TOTAL",
+       "valor": "$ 340.026.000"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

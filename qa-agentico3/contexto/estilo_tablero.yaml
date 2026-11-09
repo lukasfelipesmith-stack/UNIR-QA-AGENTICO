@@ -1,0 +1,18 @@
+# Reglas de presentación del tablero (capa de visualización)
+moneda:
+  codigo: COP
+  formato: "$ 1.234.567"      # símbolo $, espacio, punto como separador de miles, sin decimales
+porcentaje:
+  formato: "25,3 %"           # escala 0–100, coma decimal, un decimal, símbolo %
+redondeo_ingreso: miles        # el tablero puede redondear el ingreso a miles (tolerancia ± 500 COP)
+visuales:
+  - id: v_ingreso
+    titulo_esperado: "Ingreso neto mensual por tienda"
+    kpi: ingreso_neto_mensual
+  - id: v_margen
+    titulo_esperado: "Margen % por tienda"
+    kpi: margen_pct
+  - id: v_total
+    titulo_esperado: "Ingreso total de la compañía"
+    kpi: ingreso_total_compania
+periodo_mostrado: debe coincidir con el mes seleccionado en el filtro del tablero
